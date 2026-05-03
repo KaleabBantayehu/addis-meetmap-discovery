@@ -1,0 +1,1 @@
+import{j as e,L as o}from"./index-Cy7KSrkC.js";const t=()=>e.jsxs("div",{className:"p-10 text-center",children:[e.jsx("p",{children:"Place not found."}),e.jsx(o,{to:"/explore",className:"text-primary underline",children:"Back to explore"})]});export{t as notFoundComponent};
