@@ -33,10 +33,12 @@ export const Route = createRootRoute({
       { name: "description", content: "Find the right place, every time. Map-based, honest discovery for Addis Ababa." },
       { name: "author", content: "MeetMap Addis" },
       { property: "og:title", content: "MeetMap Addis" },
-      { property: "og:description", content: "Find the right place, every time." },
+      { property: "og:description", content: "Find the right place, every time. Map-based, honest discovery for Addis Ababa." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "MeetMap Addis" },
+      { name: "twitter:description", content: "Find the right place, every time. Map-based, honest discovery for Addis Ababa." },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
