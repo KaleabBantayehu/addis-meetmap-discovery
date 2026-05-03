@@ -1,7 +1,8 @@
 import { lazy, Suspense, useEffect, useState } from "react";
+import { createClientOnlyFn } from "@tanstack/react-start";
 import type { Place } from "@/data/places";
 
-const MapInner = lazy(() => import("./MapView.client").then((m) => ({ default: m.MapView })));
+const MapInner = createClientOnlyFn(() => lazy(() => import("./MapView.client").then((m) => ({ default: m.MapView }))));;
 
 export function MapView({ places, activeId }: { places: Place[]; activeId: string | null }) {
   const [mounted, setMounted] = useState(false);

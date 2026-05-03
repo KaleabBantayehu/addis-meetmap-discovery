@@ -10,7 +10,7 @@ export default defineConfig({
   vite: {
     base: "/addis-meetmap-discovery/",
     build: {
-      ssr: false
+      outDir: 'dist'
     }
   }
 });
